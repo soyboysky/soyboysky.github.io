@@ -3,7 +3,7 @@
     font-size: 16px;
 	max-width: 600px;
     margin: 0 auto;   
-    background-color:
+    background-color: white;
     font-family: 'Heebo', sans-serif;
     }
 	
@@ -93,7 +93,7 @@
 		
 
 	A:link { COLOR: black; TEXT-DECORATION: none; font-weight: bold; }
-	A:visited { COLOR: #eeda1c; TEXT-DECORATION: none; font-weight: bold; }
+	A:visited { COLOR: black; TEXT-DECORATION: none; font-weight: bold; }
 	A:active { COLOR: black; TEXT-DECORATION: none; font-weight: bold;}
 	A:hover { COLOR: #f4a42c; TEXT-DECORATION: none; font-weight: bold; }
 	
