@@ -106,6 +106,10 @@
    display:block
 }
 
+	.fixedtab {
+	table-layout: fixed;
+   	width: 40px;
+	}
 
 
 
