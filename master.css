@@ -111,7 +111,9 @@
    	width: 40px;
 	}
 
-
+	.bs {
+	letter-spacing: 0.4em;
+	}
 
 	A:link { COLOR: black; TEXT-DECORATION: none; font-weight: bold; }
 	A:visited { COLOR: black; TEXT-DECORATION: none; font-weight: bold; }
