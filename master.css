@@ -119,6 +119,9 @@
 	padding: 3px;
 	text-align: center;
 	}
+	.c {
+	text-align: center;
+	}
 
 	A:link { COLOR: black; TEXT-DECORATION: none; font-weight: bold; }
 	A:visited { COLOR: black; TEXT-DECORATION: none; font-weight: bold; }
