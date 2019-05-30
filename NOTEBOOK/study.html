@@ -66,8 +66,29 @@
 <p style="text-align:center;"> Time or day and relation to other events is a crucial part of productivity.<br>Directly after I get home, I should make something to eat. This is my time to relax, and get the unproductive out, so to leave room for the productive.
 <br>
 After this, there comes to be 2 options - I either stay at home working at a comfortable pace, or I go somewhere to study and work hard. 
+</p>
 	
-	<div id="new_table">	
+	<script>
+function myFunctionH() {
+  var x = document.getElementById("myDIVH");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function myFunctionA() {
+  var x = document.getElementById("myDIVA");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+<p style="text-align:center;"><h4 onclick="myFunctionH()"><b>AT HOME</b></h4></p>
+	<div id="myDIVH">	
 		<table class="table1">
 			<tbody>
 				<tr>
@@ -78,6 +99,12 @@ After this, there comes to be 2 options - I either stay at home working at a com
 						 <br><br> When I work from home, my focus is optimized if I take a minute before the study session to <b>acknowledge why I want to achieve an learn and understand</b>. If I take a minute of my time to acknowledge these reasons, I become much more motivated to work.
 					</td>
 				</tr>
+			</tbody>
+		</table>
+<p style="text-align:center;"><h4 onclick="myFunctionA()"><b>AWAY</b></h4></p>		
+	<div id="myDIVA">	
+		<table class="table1">
+			<tbody>
 				<tr>
 					<td class="linkcol3" style="text-align:center;">
 						<b style="text-align: center;">AWAY </b>
