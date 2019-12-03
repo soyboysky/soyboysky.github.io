@@ -15,11 +15,12 @@
     }
 
 	h1 {
-	font-family: "GlacialIndifferenceRegular";
-    font-weight: bold;
+	font-family: "GlacialIndifferenceBold";
+    font-weight: normal;
     font-style: normal;
     font-size: 36px;
     line-height: 40px;
+    letter-spacing: 0.25em;
 	}
 
 	h2 {
@@ -50,6 +51,11 @@
 	text-align: center;
 	}
 	
+	td {
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+	
 /* end body formatting*/
 	
 	
@@ -71,7 +77,13 @@
 	letter-spacing: 0.5em;
 	}
 	
+	.header {
+	text-align: center;
+	margin-top: 80px;
+	}
+	
 /* end specialty classes */ 
+	
 	
 	
 	
@@ -96,8 +108,6 @@
 	background-color: #464646;
 	text-align: center;
 	width: auto;
-	
-	
 	}
 	
 	
