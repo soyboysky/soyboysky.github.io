@@ -1,37 +1,104 @@
-	/* body formatting */
+/* body formatting */
 	body {
-    font-size: 16px;
+    font-size: 15px;
 	max-width: 600px;
     margin: 0 auto;   
-    background-color: #eeeeee;
-    font-family: 'Heebo', sans-serif;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    background-color: #363636;
+    
+    
+    font-family: "GlacialIndifferenceRegular";
+    font-weight: normal;
+    font-style: normal;
+    color: #ffffff;
     }
-	
+
 	h1 {
-	font-family: 'Sarabun', sans-serif;
+	font-family: "GlacialIndifferenceRegular";
+    font-weight: bold;
+    font-style: normal;
     font-size: 36px;
     line-height: 40px;
 	}
 
 	h2 {
-	font-family: 'Sarabun', sans-serif;
+	font-family: "GlacialIndifferenceRegular";
+    font-weight: bold;
+    font-style: normal;
     font-size: 30px;
-    line-height: 40px;
+    line-height: 30px;
 	}
 
 	h3 {
-	font-family: 'Sarabun', sans-serif;
+	font-family: "GlacialIndifferenceRegular";
+    font-weight: bold;
+    font-style: normal;
     font-size: 24px;
-    line-height: 40px;
+    line-height: 30px;
 	}
 
 	h4 {
-	font-family: 'Sarabun', sans-serif;
+	font-family: "GlacialIndifferenceRegular";
+    font-weight: bold;
+    font-style: normal;
     font-size: 18px;
-    line-height: 20px;
+    line-height: 30px;
+	}
+
+	footer {
+	text-align: center;
 	}
 	
-	/* end body formatting*/
+/* end body formatting*/
+	
+	
+	
+	
+/* begin specialty classes */
+	
+	.titleHomepage {
+	text-align: center;
+	letter-spacing: 0.5em;	
+	font-family: "GlacialIndifferenceBold";	
+	}
+
+	.titleHeader {
+	text-align: center;
+	font-family:"GlacialIndifferenceRegular";
+	font-weight: bold;
+	font-size:20px;
+	letter-spacing: 0.5em;
+	}
+	
+/* end specialty classes */ 
+	
+	
+	
+	
+/* begin general classes */ 
+	
+	.c {
+	text-align: center;
+	}
+	
+	.tableAdjust {
+   	border-collapse: separate;
+   	border-spacing: 0 1em;	
+	margin-left: auto;
+	margin-right: auto;
+		
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:15px;
+	padding-bottom:15px;
+
+	background-color: #464646;
+	text-align: center;
+	width: auto;
+	
+	
+	}
 	
 	
 	.linkcol {
@@ -39,24 +106,29 @@
 	text-align: center;
 	}
 	
-	.linkcol2 {
-	width: 100px;
+	
+	
+	
+	
+	
+/* end general classes */
+
+
+
+
+/* begin id edits */
+
+	#todotable {
+
+  	margin: 0 auto;
+  	text-align: center;
+	padding: 30px;		
+		td {
+		width: 120px;
+		}	
+		
 	}
 	
-	.table1 {
-   	border-collapse: separate;
-   	border-spacing: 0 1em;	
-	margin-left: auto;
-	margin-right: auto;
-	background-color:#e5e5e5;	
-	padding: 10px;
-	text-align: center;
-	}
-	
-	table.center {
-	margin-left:auto;
-	margin-right:auto;
-	}
 	
 	.melogo {
     text-align: center;
@@ -65,6 +137,20 @@
     margin-right: auto;
     height: 30px; 
 	}
+	
+	
+	.linkcol2 {
+	width: 100px;
+	}
+	
+
+	
+	table.center {
+	margin-left:auto;
+	margin-right:auto;
+	}
+	
+
 	
 	.images{
     text-align:center;
@@ -81,7 +167,7 @@
 	.todotable {
 	border-collapse: collapse;
   	width: auto;
-  	background-color:#e5e5e5;
+  	background-color:#464646;
 	margin-left: 50px;
 	margin-right: 50px;
 	}
@@ -169,10 +255,10 @@
 	
 	
 
-	A:link { COLOR: black; TEXT-DECORATION: none; font-weight: bold; }
-	A:visited { COLOR: black; TEXT-DECORATION: none; font-weight: bold; }
-	A:active { COLOR: black; TEXT-DECORATION: none; font-weight: bold;}
-	A:hover { COLOR: #f4a42c; TEXT-DECORATION: none; font-weight: bold; }
+	A:link { COLOR: white; TEXT-DECORATION: none; font-weight: bold; }
+	A:visited { COLOR: white; TEXT-DECORATION: none; font-weight: bold; }
+	A:active { COLOR: white; TEXT-DECORATION: none; font-weight: bold;}
+	A:hover { COLOR: #d44545; TEXT-DECORATION: none; font-weight: bold; }
 	
 	<link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Sarabun:600" rel="stylesheet">
