@@ -2,7 +2,8 @@
 	
 	body {
     font-size: 15px;
-	max-width: 600px;
+	max-width: 620px;
+	padding:10px;
     margin: 0 auto;   
     line-height: 30px;
     letter-spacing: 0.02em;
@@ -95,7 +96,7 @@
 	margin-top: 80px;
 	}
 	
-	#critCbutton {
+	#critButton {
 	cursor: pointer;
 	}
 	
