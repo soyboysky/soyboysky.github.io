@@ -1,92 +1,77 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-	<link rel="stylesheet" type="text/css" href="../master.css">
-	<link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Sarabun:600" rel="stylesheet">
-	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">	
+  <head> <!-- Default, change title link and header -->
+   
+	<link rel="stylesheet" type="text/css" href="../master.css" media="screen"/>
+	<link rel="shortcut icon" href="https://www.iconsdb.com/icons/preview/white/circle-outline-xxl.png" type="image/x-icon">	 
+	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/glacial-indifference" type="text/css"/>
+	<title>site skele</title>
+  
+</head> 
 	
-   <title>About Structure</title>
-  </head>
-
-
-<body style = "background-color :#eeeeee"; link="#000000" vlink="#000000" alink="#003366";>
- 	  
-<div id="intro">
-	
-  	<div id="header">
-
-	<style>
-	#intro {
-	
-        max-width: 100%;
-        margin: 0 auto;
-       }
-	</style>
-<div id="LOGO TABLE">
-	
-	<p style="text-align:center;">
-
-		<table id="logotable" class="logotable" style="margin-left: auto;
-				margin-right: auto;
-				Max-width: 600px;">
-			<tbody>
-				<tr>
-					<td style="width: 150px; text-align: center;">
-						<h4 style="letter-spacing: 0.5em;"><a href="about.html"><b> <<< </b></a></h4>
-					</td>
-					<td style="width: 100px; text-align: center;">
-						<a href="https://soyboysky.github.io/">
-						<img src = "logo.png" 
-      					width = 100
-       	 				height = 100
-       	 				> 
-						</a>
-					</td>	
-					<td style="width: 150px; text-align: center;">
-						<h4 style="letter-spacing: 0.5em;"><b>ABT</b></h4>
-					</td>
-				</tr>
-			</tbody>
-		</table>
+<header>	
+	<div id="header" class="header">
 		
-	</p>
+		<p style= "text-align: center;">
+			<img src ="https://raw.githubusercontent.com/soyboysky/soyboysky.github.io/master/logo.png" 
+			height = "100" onclick="history.back(-1)"/>
+		</p>
+		
+		<h1>THE CREATION:</h1>
+		<h2 class="c">COMPOSITION</h2>
+		<br>
+ 	
+ 	</div>
+<header>
 	
-</div>
+	
+<body>
+	<div id="main">
+		<p>I am currently devising official site structure templates for the different types of documents on my site. For each type of document listed below, you can click the header to show the standard code for each one (WIP). Currently, there are an overarching 5 different types:</p>
+		<h4 id=home onclick="showHome()">HOME PAGE</h4>
+			<div id=homeHid style="display: none;" class="codeDiv">
+				<code>
+					
+				</code>
+			</div>
+		<p>The index, home of the Creation. Subtle differences in the index from other pages, like larger logo, different H1 header, and a slightly different table than link pages.</p>
+		<h4>LINK PAGE</h4>
+		<p>a transition page containing, you guessed it, links, to related pages. A table of contents for different sections of this repository. (ex, <a href="../NOTEBOOK/notebook.html">The Notebook</a>)</p>
+		<h4>ESSAY PAGE</h4>
+		<p>A content rich page, often just text with an optional one image. One header + sub-header, and text. (ex, <a href="../ARCHIVE/minimalism_essay.html">Essay on Minimalism</a>)</p>
+		<h4>CONTENT PAGE</h4>
+		<p>An alternative content page, with more mixed media than an essay. Often contains a mix of images, videos, imbeded documents, lists, links, etc. (ex, this page!)</p>
+		
 
-	
-	<h1 style="text-align:center; letter-spacing: 0.5em;">SITE STRUCTURE</h1>
 	</div>
-<p>I am currently devising official site structure templates for the different types of documents on my site. Currently, there are an overarching 5 different types:
-<ol>
-<li>Home page - the index, slight differences from link pages.
-</li><li>Link page - a transition page that links to different sub-pages. (ex, <a href="../NOTEBOOK/notebook.html">notebook.html</a>)
-</li><li>Essay Page - One header + sub-header, and text. (ex, <a href="../ARCHIVE/minimalism_essay.html">notebook.html</a>)
-</li><li>Table page - A page with sub-headers, text, and tables/lists.(ex, <a href="../NOTEBOOK/health/morningroutine.html">morningroutine.html</a>)
-</li><li>Link+ page - a page with main links and main characteristics of other pages. (ex, <a href="../ARCHIVE/works.html">works.html</a>)
-</li></ol>
-<br>
-</div>
-<div id="body">
+</body>
+		
+<footer>
+		
+	<br><hr width="300px"><br>
+	<a href="https://twitter.com/ReubenSkyler">
+		<img class="melogo" alt="twitter" src='https://www.iconsdb.com/icons/preview/white/twitter-xxl.png'/> 
+	</a>	  
+	<a href="https://www.instagram.com/skyler.reuben/">
+		<img class="melogo" alt="instagram" src='https://wbom.ca/newWP/wp-content/uploads/2016/11/White-Instagram-Logo.png'/>
+	</a>	
+	<a href='https://webring.xxiivv.com/#random' target='_blank'>
+		<img src='https://webring.xxiivv.com/icon.white.svg' alt="webring" class="melogo"/>
+	</a><br><br><br>
 
+</footer>
+
+
+<script>
 	
-
-
-
-
-</div>
-		<br><br>
-<div id="footer">
-		<br><br>
-		<a href="https://twitter.com/ReubenSkyler">
-		<img class="melogo" border="0" alt="twitter" src="twitter.png"/> </a>
-		<a href="https://www.instagram.com/skyler.reuben/">
-		<img class="melogo" border="0" alt="instagram" src="insta.png"/> </a>
-		<a href='https://webring.xxiivv.com/#random' target='_blank'>
-		<img src='https://webring.xxiivv.com/icon.white.svg' alt="webring" class="melogo"/></a>
-	 	<br><br> 	
-</div>
-
+	function showHome() {
+	  var x = document.getElementById("homeHid");
+	  if (x.style.display === "none") {
+		x.style.display = "block";
+	  } else {
+		x.style.display = "none";
+	  }
+	}
 	
-<br><br><br>
+</script>

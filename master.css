@@ -62,12 +62,34 @@
 	padding-right: 10px;
 	}
 	
+	code {
+	font-weight: bold;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+    
+    div.codeDiv {
+	font-weight: bold;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #4a4a4a;
+    padding: 10px;
+    }
+	
 /* end body formatting*/
 	
 	
 	
 	
 /* begin specialty classes */
+	
+	
 	
 	.titleHomepage {
 	text-align: center;
@@ -134,7 +156,10 @@
 	text-align: center;
 	}
 	
-	
+	.indent {
+	margin-left:10%;
+	margin-right:10%;	
+	}
 	
 	
 	
