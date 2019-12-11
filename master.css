@@ -273,6 +273,12 @@
 	}
 	
 
+	.engsketch {
+    display:inline-block;
+    width: 190px;
+    text-align: center;    
+   }
+
 
 	.javCal {
 	border-collapse: collapse;
