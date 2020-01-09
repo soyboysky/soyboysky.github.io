@@ -81,6 +81,17 @@
     background-color: #4a4a4a;
     padding: 10px;
     }
+    
+    figcaption {
+	background-color: #4a4a4a;
+	font-style: italic;
+	font-size: 13px;
+	}
+	
+	video {
+	width: 600px;
+	height: 337.5px;
+	}
 	
 /* end body formatting*/
 	
@@ -307,6 +318,7 @@
   	color: white; /* White text color */
 	}
 
+	
 	.lab {width: 20%; background-color: #ff6b63;} 
 	.poss {width: 5%; background-color: #74b672;} 
 	.fin {width: 30%; background-color: #ffce00;} 
