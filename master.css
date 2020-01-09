@@ -100,7 +100,10 @@
 	
 /* begin specialty classes */
 	
-	
+	#GifLazer {
+	margin-left: 20px;
+	margin-right: 20px;	
+	}
 	
 	.titleHomepage {
 	text-align: center;
