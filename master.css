@@ -101,9 +101,19 @@
 /* begin specialty classes */
 	
 	#GifLazer {
-	margin-left: 20px;
-	margin-right: 20px;	
+	margin-left: 10%;
+	margin-right: 10%;	
+	background-color: #4a4a4a; 
+	font-style: italic;
+	font-size: 13px; 
+	padding-left: 3px; 
+	padding-right: 3px; 
+	text-align: center; 
+	padding-top: 20px; 
+	width: auto;
 	}
+	
+	
 	
 	.titleHomepage {
 	text-align: center;
