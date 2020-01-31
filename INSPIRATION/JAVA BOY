@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	
+<head> <!-- Default, change title link and header -->
+   
+	<link rel="stylesheet" type="text/css" href="../../master.css" media="screen"/>
+	<link rel="shortcut icon" href="https://www.iconsdb.com/icons/preview/white/circle-outline-xxl.png" type="image/x-icon">	 
+	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/glacial-indifference" type="text/css"/>
+	<title>TEST TEST TEST</title>
+  
+</head> 
+	
+<body>	
+	
+	<div id="header" class="header">
+		
+		<p style= "text-align: center;">
+			<img src ="https://raw.githubusercontent.com/soyboysky/soyboysky.github.io/master/logo.png" 
+			height = "100" onclick="history.back(-1)" onhover="/>
+			
+		</p>
+		<h1>TESTING JAVASCRIPT ANIMATION</h1>
+		<br>
+	
+ 	</div> <!-- end --> 
+
+
+	<body>
+		<canvas></canvas>
+	</body>
+	
+		
+</html>
+
+<script>
+	var runner = new SVG.runner({duration: 2000})
+	
+	
+	
+	//what do i want to animate?
+	//on hover
+	//10px line emerge upwards from outer circle of logo
+	//line follows path of pi/2 radians of a circle, counterclockwise
+	//at apex of circle/stopping point in path, two other lines making a 90 deg angle grow
+	//stop once formed a resonably sized arrow
+	//allow reverse of process (quicker) on release of hover
+	//if clicked, arrow completes a circular path into itself
+	//as merged with existing line in logo, arrowheads dissapear
+	
+	
+	//same process but reverse
+
+function tryingHard() {
+	var runner = new SVG.Runner({duration: 1000})
+	runner.move(100, 100)
+	runner.element(someElement)
+	// Step animation by 20ms
+	runner.step(20)
+
+	// To animate, we need a timeline on which the runner is run
+	var timeline = new SVG.Timeline()
+	timeline.schedule(runner)
+
+	runner.animate(2000, 1000, 'now').move(150, 150)
+	
+	
+	}
+
+
+</script>
