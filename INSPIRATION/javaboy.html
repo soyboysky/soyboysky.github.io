@@ -3,7 +3,7 @@
 	
 <head> <!-- Default, change title link and header -->
    
-	<link rel="stylesheet" type="text/css" href="../../master.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="../master.css" media="screen"/>
 	<link rel="shortcut icon" href="https://www.iconsdb.com/icons/preview/white/circle-outline-xxl.png" type="image/x-icon">	 
 	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/glacial-indifference" type="text/css"/>
 	<title>TEST TEST TEST</title>
@@ -23,13 +23,18 @@
 		<br>
 	
  	</div> <!-- end --> 
-
-
-	<body>
-		<canvas></canvas>
-	</body>
+<br>
+	<div id="circleThing">
+		<br><br><br>
+			<svg width="300" height="300">
+  				<circle cx="150" cy="150" r="60" stroke="white" stroke-width="10px" fill="none" />
+			</svg>
+					
+	</div>
+						
 	
-		
+	
+</body>	
 </html>
 
 <script>
@@ -65,6 +70,17 @@ function tryingHard() {
 	
 	
 	}
-
+	
+	
+	//circle shit
+	var svgContainer = d3.select("body").append("svg")
+   	                               .attr("width", 100)
+                                   .attr("height", 100);
+ 
+ 	//Draw the Circle
+ 	var circle = svgContainer.append("circle")
+                          	.attr("cx", 30)
+                          	.attr("cy", 30)
+                        	.attr("r", 20);
 
 </script>
