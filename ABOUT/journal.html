@@ -1,35 +1,44 @@
 <!DOCTYPE html>
 <html>
 
-  <head> <!-- Default, change title link and header -->
+     <head> <!-- Default, change title link and header -->
    
-	<link rel="stylesheet" type="text/css" href="../master.css" media="screen"/>
-	<link rel="shortcut icon" href="https://www.iconsdb.com/icons/preview/white/circle-outline-xxl.png" type="image/x-icon">	 
+	<link rel="stylesheet" type="text/css" href="/master.css" media="screen"/>
+	<link rel="shortcut icon" href="https://www.iconsdb.com/icons/preview/white/circle-outline-xxl.png" type="image/x-icon">
 	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/glacial-indifference" type="text/css"/>
-	<title>journal</title>
+	
+	<title>Journal WIP</title>
+	  
+	<script
+		src="https://code.jquery.com/jquery-3.3.1.js"
+		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+		crossorigin="anonymous">
+	</script>
+	<script> 
+		$(function(){
+		  $("#header").load("/header.html"); 
+		  $("#footer").load("/footer.html"); 
+		});
+	</script> 
   
 </head> 
 	
-<header>	
-	<div id="header" class="header">
-		
-		<p style= "text-align: center;">
-			<img src ="https://raw.githubusercontent.com/soyboysky/soyboysky.github.io/master/logo.png" 
-			height = "100" onclick="history.back(-1)"/>
-		</p>
-		
-		<h1>THE JOURNAL</h1>
-		<br>
+<body>
+	
+	
+	<div id="header"></div> <!-- end --> 
  	
- 	</div>
-<header>
-
+	<div id="introduction">
+		<h1>JOURNAL</h1><br>
+	
+		<p>This page contains the Journal, the place where i experiment with logging systems and task/project completion.</p>
+		<br>
 	</div>
-<p>This page contains the Journal, the place where i experiment with logging systems and task/project completion.</p>
-<br>
-</div>
 <div id="body">
-<h3 style="text-align:center;" id="currenthabits">STATUS BARS</h3>
+
+	<div id="digitalJournal">
+	<h3 class="c">DIGITAL JOURNAL ENTRIES</h3></div>
+<h3 style="text-align:center;" id="statusBars">STATUS BARS</h3>
 
 	<div id="status">
 		<p><b>CURRENT LAB</b></p>
@@ -58,7 +67,7 @@
 	<b></b>
 	<div id="new_table">
 		
-		<table class="table1">
+		<table class="tableAdjust">
 			<tbody>
 				<tr>
 					<td class="linkcol2">
@@ -68,7 +77,6 @@
 						Extra text 
 					</td>
 				</tr>
-				<tr>
 				<tr>
 					<td class="linkcol2">
 						<b>TITLE/LINK</b>
@@ -83,20 +91,11 @@
 	
 	
 </div>
-</div>
 
-
-		<br><br>
 <div id="footer">
-		<br><br>
-		<a href="https://twitter.com/ReubenSkyler">
-		<img class="melogo" border="0" alt="twitter" src="twitter.png"/> </a>
-		<a href="https://www.instagram.com/skyler.reuben/">
-		<img class="melogo" border="0" alt="instagram" src="insta.png"/> </a>
-		 <a href='https://webring.xxiivv.com/#random' target='_blank'>
-			<img src='https://webring.xxiivv.com/icon.white.svg' alt="webring" class="melogo"/></a>
-	 	<br><br> 	
 </div>
 
 	
 <br><br><br>
+	</body>
+</html>
